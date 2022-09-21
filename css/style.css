@@ -1,0 +1,46 @@
+body {
+  font-family: IRANSans;
+  /* background-image: url(/img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+}
+
+.iconButton {
+  background-color: #ff0063;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.Card {
+  box-shadow: 10px rgb(167, 167, 167) !important;
+}
+
+.Card-btn-p {
+  background: rgb(214, 26, 26);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+.star-btn {
+  color: rgb(255, 215, 0);
+  /* color: rgb(114, 114, 114); */
+}
+.star-btn-none {
+  color: rgb(114, 114, 114);
+}
+.uuu {
+  display: none;
+}
+
+/* 
+btn-fav {
+  background-color: #ff0063;
+  color: rgb(255, 255, 255);
+}
+footer {
+  background: rgb(114, 114, 114);
+  color: rgb(255, 255, 255);
+  border-text: rgb(204, 5, 5);
+} */

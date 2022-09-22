@@ -10,12 +10,27 @@ body {
   color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+/* nav,
+.btn {
+  font-size: 20px;
+} */
+.card {
+  box-shadow: 1px 1px 9px rgb(167 167 167);
 }
 
-.Card {
-  box-shadow: 10px rgb(167, 167, 167) !important;
+.card img {
+  width: 100%;
+  height: 50%;
 }
-
+.card:hover {
+  box-shadow: 1px 1px 10px rgb(214, 26, 26);
+}
 .Card-btn-p {
   background: rgb(214, 26, 26);
   color: rgb(255, 255, 255);
@@ -34,13 +49,55 @@ body {
   display: none;
 }
 
-/* 
-btn-fav {
-  background-color: #ff0063;
+.iconButton:hover {
+  display: flex;
+  padding-top: 20px;
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  transition: width 0.8s;
+}
+.iconButton:hover .uuu {
+  display: inline-flex;
   color: rgb(255, 255, 255);
 }
+
+.card-head {
+  font-size: 20px;
+  margin: 10%;
+  display: flex;
+  gap: auto;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text {
+  text-align: center;
+}
+.footerCont {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+}
+
+/* btn-fav {
+  background-color: #ff0063;
+  color: rgb(255, 255, 255);
+} */
 footer {
   background: rgb(114, 114, 114);
   color: rgb(255, 255, 255);
-  border-text: rgb(204, 5, 5);
+}
+h2 {
+  width: fit-content;
+  border-bottom: 2px solid rgb(204, 5, 5);
+}
+.price {
+  color: rgb(114, 114, 114);
+}
+/* .navbar-brand {
+  transform: display 2s;
 } */

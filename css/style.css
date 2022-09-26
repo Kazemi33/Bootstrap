@@ -22,6 +22,7 @@ body {
 } */
 .card {
   box-shadow: 1px 1px 9px rgb(167 167 167);
+  width: 18rem;
 }
 
 .card img {
@@ -36,6 +37,14 @@ body {
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
+}
+
+.Card-btn-p:hover {
+  background: rgb(255, 215, 0);
+  color: black;
+  border: 1px solid black;
+  font-size: 22px;
+  transition: background-color 0.5s, font-siize 0.5s;
 }
 
 .star-btn {
@@ -101,3 +110,80 @@ h2 {
 /* .navbar-brand {
   transform: display 2s;
 } */
+
+.btn {
+  border-radius: 20px;
+}
+
+.btnNav {
+  font-size: 15px;
+  border: 1px solid rgb(167 167 167);
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgb(167 167 167);
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.btnNav:hover {
+  font-size: 18px;
+  box-shadow: 1px 1px 10px rgb(214, 26, 26);
+  transition: font-size 1s, box-shadow 1s;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 990px) {
+  section {
+    display: grid !important;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: stretch;
+    justify-items: center;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .card {
+    width: 80%;
+  }
+  body {
+    font-size: 80%;
+  }
+  .card-head {
+    font-size: 90%;
+    margin: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  section {
+    grid-template-columns: 50% 50%;
+  }
+  .card {
+    width: 80%;
+  }
+  body {
+    font-size: 80%;
+  }
+  .card-head {
+    font-size: 90%;
+    margin: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  section {
+    grid-template-columns: 100%;
+  }
+  .card {
+    width: 80%;
+  }
+  body {
+    font-size: 80%;
+  }
+  .card-head {
+    font-size: 90%;
+    margin: 5%;
+  }
+}
